@@ -1,0 +1,18 @@
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 51%;
+  transform: translate(-60%, -51%);
+  font-size: 60px;
+}
+@mixin enterButton() {
+  position: absolute;
+  top: 80%;
+  left: 48%;
+  transform: translate(-70%, -48%);
+  width: 10vw;
+  height: 10vh;
+}

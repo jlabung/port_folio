@@ -1,0 +1,13 @@
+@use 'partials/mixins';
+$body-bg-color: blue;
+// $header-bg-color: green;
+$font-color: black;
+$paragraph-bg-color: orange;
+
+h1 {
+  @include mixins.flexible();
+  //@include mixins.headerFont();
+}
+button.select {
+  @include mixins.enterButton();
+}

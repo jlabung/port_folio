@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/jlabung/port_folio#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
     "@babel/polyfill": "^7.8.7",
     "@babel/runtime": "^7.9.2",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
   },
   "dependencies": {
     "parcel-plugin-static-files-copy": "^2.3.1"
